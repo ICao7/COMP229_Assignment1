@@ -1,0 +1,9 @@
+Some possible error checks:
+1. Error in connecting to MongoDB
+2. Movie is not found in the OMDb API. 
+3. There is error fetching movie from OMDB API
+4. Error in the calculateCombinedRating function.
+5. Error adding the movie to the favourite list, imdb# not valid. 
+6. Error when favourite a movie that already exist in the favourite list. 
+7. Error deleting the movie, movie doesn't exist in the Favourite list, therefore unable to delete.
+8. Returns 0 as the combinedRating if no ratings are found for the movie.
